@@ -1,4 +1,4 @@
-print("Welcome to Boston Celtics Fan Quizx")
+print("Welcome to Boston Celtics Fan Quiz")
 
 playing = input("Do you want to play? ")
 
@@ -12,8 +12,26 @@ score = 0
 #question1
 answer = input("What Kevin Garnett Jersey Number? ")
 if answer.lower() == "5":
-    print('Correct!')
+    print("Correct!")
 elif answer.lower() == "five":
-        print('Correct')
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+#question2
+answer = input("What Rajon Rondo Jersey Number? ")
+if answer.lower() == "9":
+    print("Correct!")
+elif answer.lower() == "nine":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+#question3
+answer = input("What Ray Allen Jersey Number? ")
+if answer.lower() == "20":
+    print("Correct!")
+elif answer.lower() == "twenty":
+    print("Correct!")
 else:
     print("Incorrect!")
