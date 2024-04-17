@@ -1,0 +1,19 @@
+print("Welcome to Boston Celtics Fan Quizx")
+
+playing = input("Do you want to play? ")
+
+#answer?
+if playing.lower() != "yes":
+    quit(print("Thank you for your time"))
+print("Okay! Let's play :)")
+
+score = 0
+
+#question1
+answer = input("What Kevin Garnett Jersey Number? ")
+if answer.lower() == "5":
+    print('Correct!')
+elif answer.lower() == "five":
+        print('Correct')
+else:
+    print("Incorrect!")
