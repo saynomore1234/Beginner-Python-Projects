@@ -35,3 +35,21 @@ elif answer.lower() == "twenty":
     print("Correct!")
 else:
     print("Incorrect!")
+
+#question4
+answer = input("What Paul Pierce Number? ")
+if answer.lower() == "34":
+    print("Correct!")
+elif answer.lower() == "thirty four":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+#question5
+answer = input("How many Boston Celtics? ")
+if answer.lower() == "18":
+    print("Correct!")
+elif answer.lower() == "eighteen":
+    print("Correct!")
+else:
+    print("Incorrect!")
