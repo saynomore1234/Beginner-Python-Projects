@@ -13,35 +13,46 @@ score = 0
 answer = input("What Kevin Garnett Jersey Number? ")
 if answer.lower() == "5":
     print("Correct!")
+    score += 1
 elif answer.lower() == "five":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
+
 
 #question2
 answer = input("What Rajon Rondo Jersey Number? ")
 if answer.lower() == "9":
     print("Correct!")
+    score += 1
 elif answer.lower() == "nine":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
+
 
 #question3
 answer = input("What Ray Allen Jersey Number? ")
 if answer.lower() == "20":
     print("Correct!")
+    score += 1
 elif answer.lower() == "twenty":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
+
 
 #question4
 answer = input("What Paul Pierce Number? ")
 if answer.lower() == "34":
     print("Correct!")
+    score += 1
 elif answer.lower() == "thirty four":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
 
@@ -49,7 +60,13 @@ else:
 answer = input("How many Boston Celtics? ")
 if answer.lower() == "18":
     print("Correct!")
+    score += 1
 elif answer.lower() == "eighteen":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
+
+
+#Final score for the quiz
+print("You got " + str(score) + " questions correct!")
